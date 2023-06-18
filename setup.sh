@@ -25,7 +25,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 sudo docker run hello-world
 # login to docker and pull down image
 sudo docker login --username $USERNAME --password $PASSWORD
-sudo docker pull cagarweyne/nomad  
+sudo docker pull jitesh86/nomad  
 
 # Setup sudo to allow no-password sudo for "hashicorp" group and adding "terraform" user
 sudo groupadd -r hashicorp

@@ -1,7 +1,7 @@
 variable "region" {
   type    = string
   description = "The region where the AMI will be made available"
-  default = "us-east-2"
+  default = "eu-west-2"
 }
 
 variable "docker_username" {
